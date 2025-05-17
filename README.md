@@ -57,3 +57,9 @@ Each series features individual game pages with banners, character spotlights, t
     <img width="70%" src="Media/ss2.png" alt="Screen Shot 2" >
     <img width="70%" src="Media/ss3.png" alt="Screen Shot 3">
 </div>
+
+## 👨‍💻 Developer
+
+**Divyansh Garg**
+📧 divyanshgarg3105@gmail.com
+🌐 [GitHub Profile](https://github.com/Divyansh3105)
