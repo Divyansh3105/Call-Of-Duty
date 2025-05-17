@@ -61,5 +61,7 @@ Each series features individual game pages with banners, character spotlights, t
 ## 👨‍💻 Developer
 
 **Divyansh Garg**
+
 📧 divyanshgarg3105@gmail.com
+
 🌐 [GitHub Profile](https://github.com/Divyansh3105)
