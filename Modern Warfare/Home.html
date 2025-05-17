@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Warfare Series</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-light overflow-x-hidden">
+    <!-- Header Section -->
+    <header class="bg-black text-white py-4 px-6">
+        <nav class="flex items-center justify-between">
+            <!-- Logo -->
+            <section>
+                <a href="index.html">
+                    <img src="../Media/logo.png" alt="logo" class="h-16">
+                </a>
+            </section>
+
+            <!-- Navigation links -->
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="../index.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Home</a></li>
+                <li><a href="../Operatives.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Legends of Duty</a></li>
+                <li class="dropdown relative">
+                    <button class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning border-0 dropdownto focus:outline-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Games
+                    </button>
+                    <ul class="dropdown-menu absolute bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent w-56">
+                        <li><a class="block px-4 py-2 text-warning bg-transparent font-extrabold" href="../Modern Warfare/Home.html">Modern Warfare Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Black Ops/Home.html">Black Ops Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../World War II Themed/Home.html">World War II Themed</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Futuristic/Home.html">Futuristic</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-96 bg-[url(../Media/MWBanner.jpg)]">
+        <section class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+            <section class="text-center text-white px-4">
+                <h1 class="text-4xl font-bold fontmon justify-content-center bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">CALL OF DUTY: Modern Warfare Series</h1>
+                <p class="text-lg mt-2">Where loyalty is tested, and legends are forged in the fires of battle.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- Modern Warfare Games -->
+    <section class="container mx-auto py-12">
+        <h2 class="text-4xl font-bold text-center text-yellow-500 mb-10">The Modern Warfare Saga</h2>
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Game Cards -->
+            <section class="bg-gray-800/50 p-4 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <a href="Modern Warfare 1.html" class="no-underline hover:no-underline">
+                    <img src="../Media/COD4/MW2007.jpg" alt="Modern Warfare 2007" class="w-full h-64 object-cover rounded mb-4">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-2">Call of Duty 4: Modern Warfare (2007)</h3>
+                    <p class="text-gray-400 mb-3">The groundbreaking first entry that redefined shooters with cinematic storytelling and modern combat.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                    </section>
+                </a>
+            </section>
+
+            <section class="bg-gray-800/50 p-4 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <a href="Modern Warfare 2.html" class="no-underline hover:no-underline">
+                    <img src="../Media/MW2/MW2009.jpg" alt="Modern Warfare 2 2009" class="w-full h-64 object-cover rounded mb-4">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-2">Modern Warfare 2 (2009)</h3>
+                    <p class="text-gray-400 mb-3">An explosive sequel with high-stakes missions, introducing iconic moments like "No Russian."</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Spec Ops</span>
+                    </section>
+                </a>
+            </section>
+
+            <section class="bg-gray-800/50 p-4 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <a href="Modern Warfare 3.html" class="no-underline hover:no-underline">
+                    <img src="../Media/MW3/MW2011.jpg" alt="Modern Warfare 3 2011" class="w-full h-64 object-cover rounded mb-4">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-2">Modern Warfare 3 (2011)</h3>
+                    <p class="text-gray-400 mb-3">The dramatic finale of the original trilogy, delivering non-stop action and global conflict.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Spec Ops</span>
+                    </section>
+                </a>
+            </section>
+        </section>
+
+        <h2 class="text-4xl font-bold text-center text-yellow-500 mb-10 py-5">The Modern Warfare Saga Reoot</h2>
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Reboot Trilogy Cards -->
+            <section class="bg-gray-800/50 p-4 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <a href="Modern Warfare Reboot.html" class="no-underline hover:no-underline">
+                    <img src="../Media/MW/MW2019.jpg" alt="Modern Warfare 2019" class="w-full h-64 object-cover rounded mb-4">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-2">Modern Warfare (2019)</h3>
+                    <p class="text-gray-400 mb-3">A gritty reboot of the iconic series, bringing realistic combat and a gripping narrative.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Spec Ops</span>
+                    </section>
+                </a>
+            </section>
+
+            <section class="bg-gray-800/50 p-4 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <a href="Modern Warfare II.html" class="no-underline hover:no-underline">
+                    <img src="../Media/MWII/MW2.jpg" alt="Modern Warfare II" class="w-full h-64 object-cover rounded mb-4">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-2">Modern Warfare II (2022)</h3>
+                    <p class="text-gray-400 mb-3">The sequel continues Task Force 141's fight against global threats with enhanced gameplay.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">DMZ</span>
+                    </section>
+                </a>
+            </section>
+
+            <section class="bg-gray-800/50 p-4 rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <a href="Modern Warfare III.html" class="no-underline hover:no-underline">
+                    <img src="../Media/MWIII/MW3.jpg" alt="Modern Warfare III" class="w-full h-64 object-cover rounded mb-4">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-2">Modern Warfare III (2023)</h3>
+                    <p class="text-gray-400 mb-3">The epic conclusion to the trilogy with massive battles and the return of classic maps.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full text-sm">Zombies</span>
+                    </section>
+                </a>
+            </section>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p class="text-gray-400">&copy; 2025 Call Of Duty Tribute Page</p>
+        <a href="https://www.callofduty.com/" target="_blank" class="text-gray-400 hover:text-gray-300">Call Of Duty Offictal Site</a>
+    </footer>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Series</title>
+
+    <!-- Link to Bootstrap's CSS from CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to Bootstrap's CSS icon from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Link to Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-light overflow-x-hidden">
+    <!-- Header Section -->
+    <header class="bg-black text-white py-4 px-6">
+        <nav class="flex items-center justify-between">
+            <!-- Logo -->
+            <section>
+                <a href="index.html">
+                    <img src="../Media/logo.png" alt="logo" class="h-16">
+                </a>
+            </section>
+            <!-- Navigation links -->
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="../index.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Home</a></li>
+                <li><a href="../Operatives.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Legends of Duty</a></li>
+                <li class="dropdown relative">
+                    <button class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning border-0 dropdownto focus:outline-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Games
+                    </button>
+                    <ul class="dropdown-menu absolute bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent w-56">
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Modern Warfare/Home.html">Modern Warfare Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Black Ops/Home.html">Black Ops Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../World War II Themed/Home.html">World War II Themed</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent font-extrabold" href="../Futuristic/Home.html">Futuristic</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative bg-cover bg-center h-96 bg-[url(../Media/FuturisticBanner.jpeg)]">
+        <section class="absolute inset-0 bg-black bg-opacity-60 flex justify-center items-center">
+            <section class="text-center text-white px-4">
+                <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">CALL OF DUTY: Futuristic Series</h1>
+                <p class="text-lg mt-2">Explore the future of combat with exosuits, space warfare, AI, and cybernetic soldiers.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- Futuristic Games Grid -->
+    <section class="container mx-auto py-12">
+        <h2 class="text-4xl font-bold text-center text-blue-400 mb-10">The Futuristic Titles</h2>
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Advanced Warfare -->
+            <section class="bg-gray-800/50 p-4 rounded-lg transition transform hover:-translate-y-1 hover:scale-110 duration-300">
+                <a href="Advanced Warfare.html" class="no-underline hover:no-underline">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209650/header.jpg" alt="Advanced Warfare" class="w-full h-64 object-cover rounded mb-4" />
+                    <h3 class="text-2xl font-bold text-blue-400 mb-2">Advanced Warfare (2014)</h3>
+                    <p class="text-gray-400 mb-3">Set in 2054, exosuits and private military corporations redefine future warfare.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                    </section>
+                </a>
+            </section>
+
+            <!-- Black Ops III -->
+            <section class="bg-gray-800/50 p-4 rounded-lg transition transform hover:-translate-y-1 hover:scale-110 duration-300">
+                <a href="../Black Ops/Black Ops III.html" class="no-underline hover:no-underline">
+                    <img src="../Media/BO3/BO3.jpg" alt="Black Ops 3" class="w-full h-64 object-cover rounded mb-4" />
+                    <h3 class="text-2xl font-bold text-blue-400 mb-2">Black Ops III (2015)</h3>
+                    <p class="text-gray-400 mb-3">Cyborg super-soldiers, neural interfaces, and co-op futuristic missions dominate the battlefield.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Zombies</span>
+                    </section>
+                </a>
+            </section>
+
+            <!-- Infinite Warfare -->
+            <section class="bg-gray-800/50 p-4 rounded-lg transition transform hover:-translate-y-1 hover:scale-110 duration-300">
+                <a href="Infinite Warfare.html" class="no-underline hover:no-underline">
+                    <img src="../Media/IW.jpg" alt="Infinite Warfare" class="w-full h-64 object-cover rounded mb-4" />
+                    <h3 class="text-2xl font-bold text-blue-400 mb-2">Infinite Warfare (2016)</h3>
+                    <p class="text-gray-400 mb-3">Battle across the solar system with space combat and futuristic military tactics.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Campaign</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Zombies</span>
+                    </section>
+                </a>
+            </section>
+
+            <!-- Black Ops 4 -->
+            <section class="bg-gray-800/50 p-4 rounded-lg transition transform hover:-translate-y-1 hover:scale-110 duration-300">
+                <a href="../Black Ops/Black Ops 4.html" class="no-underline hover:no-underline">
+                    <img src="../Media/BO4/BO4.jpg" alt="Black Ops 4" class="w-full h-64 object-cover rounded mb-4" />
+                    <h3 class="text-2xl font-bold text-blue-400 mb-2">Black Ops 4 (2018)</h3>
+                    <p class="text-gray-400 mb-3">Ditches traditional campaign, focusing on tactical multiplayer, Zombies, and Blackout Battle Royale.</p>
+                    <section class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Zombies</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Battle Royale</span>
+                    </section>
+                </a>
+            </section>
+        </section>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p class="text-gray-400">&copy; 2025 Call Of Duty Tribute Page</p>
+        <a href="https://www.callofduty.com/" target="_blank" class="text-gray-400 hover:text-gray-300">Call Of Duty Offictal Site</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

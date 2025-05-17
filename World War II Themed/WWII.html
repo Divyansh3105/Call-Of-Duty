@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call of Duty WWII</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-light overflow-x-hidden">
+    <!-- Header Section -->
+    <header class="bg-black text-white py-4 px-6">
+        <nav class="flex items-center justify-between">
+            <!-- Logo -->
+            <section>
+                <a href="index.html">
+                    <img src="../Media/logo.png" alt="logo" class="h-16">
+                </a>
+            </section>
+
+            <!-- Navigation links -->
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="../index.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Home</a></li>
+                <li><a href="../Operatives.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Legends of Duty</a></li>
+                <li class="dropdown relative">
+                    <button class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning border-0 dropdownto focus:outline-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Games
+                    </button>
+                    <ul class="dropdown-menu absolute bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent w-56">
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Modern Warfare/Home.html">Modern Warfare Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Black Ops/Home.html">Black Ops Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent font-extrabold" href="../World War II Themed/Home.html">World War II Themed</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Futuristic/Home.html">Futuristic</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="relative bg-cover bg-center h-96 bg-[url('../Media/WWII/Hero.jpeg')] my-5">
+        <section class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+            <h2 class="text-4xl font-extrabold text-yellow-500">Back to Boots on the Ground</h2>
+        </section>
+    </section>
+
+    <!-- Campaign -->
+    <section class="container py-5">
+        <section class="row g-3 align-items-center">
+            <section class="col-md-6">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/a9ITIaKzG3A?si=QkmAWjrcoAVBIGg8" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section class="col-md-6">
+                <h3 class="h4 text-warning mb-3">Brotherhood in the Trenches</h3>
+                <p><strong>Call of Duty: WWII (2017)</strong> brings players back to the intense battlegrounds of World War II. Follow Private Daniels and his squad through the liberation of Europe. The gritty campaign pays tribute to classic COD storytelling and wartime camaraderie.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- Multiplayer -->
+    <section class="my-5">
+        <h3 class="text-center text-warning mb-4">Boots-on-the-Ground Combat</h3>
+        <section class="row text-center text-gray-300">
+            <section class="col-md-4">
+                <i class="bi bi-lightning-charge-fill text-3xl text-yellow-400 mb-4"></i>
+                <h5>War Mode</h5>
+                <p>Objective-driven battles across iconic European frontlines.</p>
+            </section>
+            <section class="col-md-4">
+                <i class="bi bi-shield-lock-fill text-3xl text-yellow-400 mb-4"></i>
+                <h5>sectionisions</h5>
+                <p>Choose your combat role—Infantry, Airborne, Mountain, and more.</p>
+            </section>
+            <section class="col-md-4">
+                <i class="bi bi-fire text-3xl text-yellow-400 mb-4"></i>
+                <h5>Classic Weapons</h5>
+                <p>Fight with WWII-era firearms like the M1 Garand and STG44.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- Weapons -->
+    <section class="bg-gray-800 p-5 rounded-xl my-5">
+        <section class="row align-items-center">
+            <section class="col-md-6">
+                <h3 class="text-yellow-500">Historic Arsenal</h3>
+                <p>Call of Duty: WWII featured an authentic loadout of World War II weaponry. Every shot, reload, and bayonet charge was designed to reflect the brutal, gritty realism of the era.</p>
+            </section>
+            <section class="col-md-6">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-2017/9/9c/Weapons.jpg?width=960" alt="WWII Weapons" class="img-fluid rounded shadow">
+            </section>
+        </section>
+    </section>
+
+    <!-- Characters -->
+    <section class="text-center my-5">
+        <h3 class="text-warning mb-4">Squadmates</h3>
+        <section class="justify-content-center row g-4">
+            <section class="col-md-3">
+                <img src="../Media/Pvt. Ronald “Red” Daniels.png" class="rounded mb-2 w-100"/>
+                <h5>Private Daniels</h5>
+            </section>
+            <section class="col-md-3">
+                <img src="../Media/WWII/Zussman.jpeg" class="rounded mb-2 w-100"/>
+                <h5>Zussman</h5>
+            </section>
+            <section class="col-md-3">
+                <img src="../Media/Sgt. William Pierson.png" class="rounded mb-2 w-100"/>
+                <h5>Sgt. Pierson</h5>
+            </section>
+        </section>
+    </section>
+
+    <!-- Gallery -->
+    <section class="my-5">
+        <h3 class="text-center text-warning mb-4">Frontline Memories</h3>
+        <section class="row g-3">
+            <section class="col-md-4"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/476600/ss_5e5727fc0974a154f69dc1d2e53ca8e63453022f.600x338.jpg" class="img-fluid rounded shadow" /></section>
+            <section class="col-md-4"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/476600/ss_db711966afcef6cd0a916cbefc05377d1898e40d.600x338.jpg" class="img-fluid rounded shadow" /></section>
+            <section class="col-md-4"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/476600/ss_ba2ac2a2959f96992d18cb1e00eb37c97152d4c6.600x338.jpg" class="img-fluid rounded shadow" /></section>
+        </section>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center bg-gray-900 p-5 rounded-xl my-5">
+        <h3 class="text-2xl font-bold text-yellow-500 mb-3">Honor the Legacy</h3>
+        <p class="mb-4 text-gray-300">Step into one of the most pivotal conflicts in history—Call of Duty: WWII awaits.</p>
+        <a href="https://www.callofduty.com/wwii" target="_blank" class="btn btn-warning px-4 py-2 rounded-pill">Play WWII Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p class="text-gray-400">&copy; 2025 Call Of Duty Tribute Page</p>
+        <a href="https://www.callofduty.com/" target="_blank" class="text-gray-400 hover:text-gray-300">Call Of Duty Offictal Site</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

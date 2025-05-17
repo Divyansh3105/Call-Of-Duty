@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call of Duty: Advanced Warfare</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-light overflow-x-hidden">
+    <!-- Header Section -->
+    <header class="bg-black text-white py-4 px-6">
+        <nav class="flex items-center justify-between">
+            <!-- Logo -->
+            <section>
+                <a href="index.html">
+                    <img src="../Media/logo.png" alt="logo" class="h-16">
+                </a>
+            </section>
+
+            <!-- Navigation links -->
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="../index.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Home</a></li>
+                <li><a href="../Operatives.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Legends of Duty</a></li>
+                <li class="dropdown relative">
+                    <button class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning border-0 dropdownto focus:outline-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Games
+                    </button>
+                    <ul class="dropdown-menu absolute bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent w-56">
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Modern Warfare/Home.html">Modern Warfare Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../Black Ops/Home.html">Black Ops Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="../World War II Themed/Home.html">World War II Themed</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent font-extrabold" href="../Futuristic/Home.html">Futuristic</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Hero Banner -->
+    <section class="relative bg-cover bg-center h-96 bg-[url('../Media/AW/Hero.jpeg')] my-5">
+        <section class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+            <h2 class="text-4xl font-extrabold text-yellow-500">Power Changes Everything</h2>
+        </section>
+    </section>
+
+    <!-- Campaign Section -->
+    <section class="container py-5">
+        <section class="row g-3 align-items-center">
+            <section class="col-md-6">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/sFu5qXMuaJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="col-md-6">
+                <h3 class="h4 text-warning mb-3">A Futuristic Fight</h3>
+                <p>In <strong>Call of Duty: Advanced Warfare (2014)</strong>, join Jack Mitchell and the powerful Atlas Corporation in a world where military power is driven by advanced exoskeletons and private armies. With an intense story and Hollywood star power from Kevin Spacey, this game redefined future warfare with jetpacks, high-tech gadgets, and tactical freedom.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- Multiplayer Section -->
+    <section class="my-5">
+        <h3 class="text-center text-warning mb-4">Fast-Paced Multiplayer</h3>
+        <section class="row text-center text-gray-300">
+            <section class="col-md-4">
+                <i class="bi bi-lightning-fill text-3xl text-yellow-400 mb-4"></i>
+                <h5>Exo Movement</h5>
+                <p>Boost jumps, dodges, and slams brought a vertical dimension to multiplayer combat.</p>
+            </section>
+            <section class="col-md-4">
+                <i class="bi bi-crosshair2 text-3xl text-yellow-400 mb-4"></i>
+                <h5>Pick 13 System</h5>
+                <p>Customize your loadout and perks like never before with more flexibility.</p>
+            </section>
+            <section class="col-md-4">
+                <i class="bi bi-diagram-3 text-3xl text-yellow-400 mb-4"></i>
+                <h5>Uplink Mode</h5>
+                <p>Team-based strategy meets sci-fi sports in this fast and fun objective mode.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- Weapons Highlight -->
+    <section class="bg-gray-800 p-5 rounded-xl my-5">
+        <section class="row align-items-center">
+            <section class="col-md-6">
+                <h3 class="text-yellow-500">Futuristic Firepower</h3>
+                <p>
+                    From directed energy weapons to exo-enhanced rifles, Advanced Warfare pushed the boundaries of modern weaponry. With supply drops, weapon variants, and futuristic tech, it gave players an entirely new battlefield experience.
+                </p>
+            </section>
+            <section class="col-md-6">
+                <img src="../Media/AW/Weapons.jpeg" alt="Advanced Warfare Weapons" class="img-fluid rounded shadow">
+            </section>
+        </section>
+    </section>
+
+    <!-- Characters Highlight -->
+    <section class="text-center my-5">
+        <h3 class="text-warning mb-4">Key Characters</h3>
+        <section class="justify-content-center row g-4">
+            <section class="col-md-3">
+                <img src="../Media/AW/Mitchell.jpeg" class="rounded mb-2 w-100" />
+                <h5>Jack Mitchell</h5>
+            </section>
+            <section class="col-md-3">
+                <img src="../Media/Jonathan Irons.png" class="rounded mb-2 w-100" />
+                <h5>Jonathan Irons</h5>
+            </section>
+            <section class="col-md-3">
+                <img src="../Media/AW/Gideon.jpeg" class="rounded mb-2 w-100" />
+                <h5>Gideon</h5>
+            </section>
+        </section>
+    </section>
+
+    <!-- Gallery -->
+    <section class="my-5">
+        <h3 class="text-center text-warning mb-4">Game Gallery</h3>
+        <section class="row g-3">
+            <section class="col-md-4"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209650/ss_9c2a0040aec3508c40134442597987eaa01cc7c4.600x338.jpg?t" class="img-fluid rounded shadow" /></section>
+            <section class="col-md-4"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209650/ss_101172dd16fc318668589aa1638dcf5d6f3f4e8a.600x338.jpg" class="img-fluid rounded shadow" /></section>
+            <section class="col-md-4"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209650/ss_2979d947252eca10186ac6f18cfd556be19b4ff1.600x338.jpg" class="img-fluid rounded shadow" /></section>
+        </section>
+    </section>
+
+    <!-- CTA -->
+    <section class="text-center bg-gray-900 p-5 rounded-xl my-5">
+        <h3 class="text-2xl font-bold text-yellow-500 mb-3">Gear Up for the Future</h3>
+        <p class="mb-4 text-gray-300">Exosuits. Energy Weapons. Tactical Freedom. Welcome to Advanced Warfare.</p>
+        <a href="https://www.callofduty.com/advancedwarfare" target="_blank" class="btn btn-warning px-4 py-2 rounded-pill">
+            Play Advanced Warfare
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p class="text-gray-400">&copy; 2025 Call Of Duty Tribute Page</p>
+        <a href="https://www.callofduty.com/" target="_blank" class="text-gray-400 hover:text-gray-300">Call Of Duty Offictal Site</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

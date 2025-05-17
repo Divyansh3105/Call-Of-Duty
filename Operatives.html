@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Legends of Duty</title>
+
+    <!-- Link to Bootstrap's CSS from CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to Bootstrap's CSS icon from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Link to Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+    <!-- Header -->
+    <header class="bg-black text-white py-4 px-6">
+        <nav class="flex items-center justify-between">
+            <a href="index.html">
+                <img src="Media/logo.png" alt="logo" class="h-16">
+            </a>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="index.html" class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning">Home</a></li>
+                <li><a href="Operatives.html" class="text-warning font-bold">Legends of Duty</a></li>
+                <li class="dropdown relative">
+                    <button class="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent text-warning border-0 dropdownto focus:outline-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">Games</button>
+                    <ul class="dropdown-menu absolute bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent w-56">
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="Modern Warfare/Home.html">Modern Warfare Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="Black Ops/Home.html">Black Ops Series</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="World War II Themed/Home.html">World War II Themed</a></li>
+                        <li><a class="block px-4 py-2 text-warning bg-transparent" href="Futuristic/Home.html">Futuristic</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Hero -->
+    <section class="relative bg-cover bg-center h-96 bg-[url(Media/LegendsBanner.jpeg)]">
+        <section class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
+            <h1 class="text-5xl font-extrabold text-yellow-400">Legends of Duty</h1>
+        </section>
+    </section>
+
+    <!-- Legends Section -->
+    <section class="container mx-auto py-12">
+        <h2 class="text-4xl font-bold text-center text-yellow-500 mb-10">Iconic Operatives</h2>
+        <ul class="nav nav-pills justify-content-center mb-4 " id="gameTabs">
+            <li class="nav-item">
+                <a class="nav-link active btn btn-warning fw-bold rounded-pill px-4 py-2 mx-2 text-light bg-transparent transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500" data-bs-toggle="pill" href="#ModernWarfare">Modern Warfare</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-warning fw-bold rounded-pill px-4 py-2 mx-2 text-light bg-transparent transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500" data-bs-toggle="pill" href="#BlackOps">Black Ops</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-warning fw-bold rounded-pill px-4 py-2 mx-2 text-light bg-transparent transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500" data-bs-toggle="pill" href="#WWII">World War II Themed</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-warning fw-bold rounded-pill px-4 py-2 mx-2 text-light bg-transparent transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500" data-bs-toggle="pill" href="#Futuristic">Futuristic</a>
+            </li>
+        </ul>
+
+        <!-- Images -->
+        <section class="tab-content">
+            <!-- Modern Warfare -->
+            <section class="tab-pane fade show active" id="ModernWarfare" role="tabpanel">
+                <section class="row g-4" id="Modern Warfare">
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Captain John Price.png" alt="Price" class="w-full h-65 object-cover rounded">
+                            <h3 class="text-xl font-semibold text-white mt-4">Captain John Price</h3>
+                            <p class="text-gray-400">Tactical genius and the face of Call of Duty's Special Forces operations.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Ghost.png" alt="Ghost" class="w-full h-65 object-cover rounded">
+                            <h3 class="text-xl font-semibold text-white mt-4">Simon "Ghost" Riley</h3>
+                            <p class="text-gray-400">The mysterious masked operative known for stealth, skill, and an unshakable presence in the field.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Soap.png" alt="Soap" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">John "Soap" MacTavish</h3>
+                            <p class="text-gray-400">A fan-favorite from the Modern Warfare series known for loyalty and leadership.</p>
+                        </section>
+                    </section>
+                    <section class="d-flex justify-content-center">
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Gaz.png" alt="Gaz" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Gaz (Kyle Garrick)</h3>
+                                <p class="text-gray-400">loyal and sharp British operative, bringing precision and composure to every high-stakes mission.</p>
+                            </section>
+                        </section>
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Farah Karim.png" alt="Farah Karim" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Farah Karim</h3>
+                                <p class="text-gray-400">A fierce freedom fighter and tactician, leading with courage and conviction in the face of oppression.</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <!-- Black OPS -->
+            <section class="tab-pane fade" id="BlackOps" role="tabpanel">
+                <section class="row g-4">
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Alex Mason.png" alt="Price" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Alex Mason</h3>
+                            <p class="text-gray-400">The resilient Black Ops operative, haunted by his past but driven by duty.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Frank Woods.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Frank Woods</h3>
+                            <p class="text-gray-400">The grizzled, wise-cracking Black Ops veteran who's seen it all.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Jason Hudson.png" alt="Soap" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Jason Hudson</h3>
+                            <p class="text-gray-400">The cold, calculating CIA handler who always gets the mission done.</p>
+                        </section>
+                    </section>
+                    <section class="d-flex justify-content-center">
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Russell Adler.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Russell Adler</h3>
+                                <p class="text-gray-400">The mysterious agent with a ruthless edge, always operating in the shadows.</p>
+                            </section>
+                        </section>
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Raul Menendez.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Raul Menendez</h3>
+                                <p class="text-gray-400">The brilliant but vengeful mastermind who became a global threat.</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <!-- WWII Themed -->
+            <section class="tab-pane fade" id="WWII" role="tabpanel">
+                <section class="row g-4">
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Sgt. Viktor Reznov.png" alt="Price" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Sgt. Viktor Reznov </h3>
+                            <p class="text-gray-400">Legendary leader and hardened warrior, the voice of resilience on the Eastern Front.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Lt. Polina Petrova.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Lt. Polina Petrova</h3>
+                            <p class="text-gray-400">Fearless sharpshooter and symbol of vengeance, the “Lady Nightingale” of Stalingrad.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Pvt. Ronald “Red” Daniels.png" alt="Soap" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Pvt. Ronald “Red” Daniels</h3>
+                            <p class="text-gray-400">he heart of the infantry, a young soldier thrust into heroism during World War II’s fiercest battles.</p>
+                        </section>
+                    </section>
+                    <section class="d-flex justify-content-center">
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Sgt. William Pierson.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Sgt. William Pierson</h3>
+                                <p class="text-gray-400">Tough-as-nails drill sergeant and battle-hardened tactician, leading with grit and fire.</p>
+                            </section>
+                        </section>
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Sgt. Roebuck.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Sgt. Roebuck</h3>
+                                <p class="text-gray-400">No-nonsense Marine Corps hero, the iron backbone of the Pacific Theater's deadliest fights.</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <!-- Futuristic -->
+            <section class="tab-pane fade" id="Futuristic" role="tabpanel">
+                <section class="row g-4">
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Raul Menendez.png" alt="Price" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Raul Menendez</h3>
+                            <p class="text-gray-400">A master manipulator and the embodiment of vengeance, pulling the strings from the shadows to reshape the world in his image.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/David Section Mason.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">David "Section" Mason</h3>
+                            <p class="text-gray-400">The relentless warrior driven by duty, carrying the weight of his father's legacy while facing a world on the brink of chaos.</p>
+                        </section>
+                    </section>
+                    <section class="col-md-4 py-3">
+                        <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                            <img src="Media/Jonathan Irons.png" alt="Soap" class="w-full h-65 object-cover rounded mb-4">
+                            <h3 class="text-xl font-semibold text-white mt-4">Jonathan Irons</h3>
+                            <p class="text-gray-400">A visionary turned tyrant, his ambition knows no bounds, and his thirst for power shapes the future of warfare with an iron fist.</p>
+                        </section>
+                    </section>
+                    <section class="d-flex justify-content-center">
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Nick Reyes.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Nick Reyes</h3>
+                                <p class="text-gray-400">A fearless commander, leading humanity’s last hope in the fight against overwhelming odds, with the heart of a soldier and the mind of a leader.</p>
+                            </section>
+                        </section>
+                        <section class="col-md-4 py-3">
+                            <section class="bg-gray-800 bg-opacity-50 p-4 rounded-lg shadow-lg text-center">
+                                <img src="Media/Ethan.png" alt="Woods" class="w-full h-65 object-cover rounded mb-4">
+                                <h3 class="text-xl font-semibold text-white mt-4">Ethan</h3>
+                                <p class="text-gray-400">The AI with a soul, proving that loyalty and courage are not just human traits, as he stands side-by-side with his crew in the battle for survival.</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p class="text-gray-400">&copy; 2025 Call Of Duty Tribute Page</p>
+        <a href="https://www.callofduty.com/" target="_blank" class="text-gray-400 hover:text-gray-300">Call Of Duty Offictal Site</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
