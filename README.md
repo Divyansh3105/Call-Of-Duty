@@ -58,10 +58,11 @@ Each series features individual game pages with banners, character spotlights, t
     <img width="70%" src="Media/ss3.png" alt="Screen Shot 3">
 </div>
 
-## 👨‍💻 Developer
+## Author
 
 **Divyansh Garg**
 
-📧 divyanshgarg3105@gmail.com
+## Contact
 
-🌐 [GitHub Profile](https://github.com/Divyansh3105)
+- 📧 Email: divyanshgarg3105@gmail.com
+- 🌐 GitHub: [GitHub Profile](https://github.com/Divyansh3105)
