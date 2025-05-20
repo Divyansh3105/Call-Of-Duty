@@ -16,7 +16,7 @@ Each series features individual game pages with banners, character spotlights, t
 
 ## 🌐 Live Demo
 
-[Link to live site](https://divyansh3105.github.io/Call-Of-Duty/)
+[Link to live site](https://call-of-duty-tribute.netlify.app/)
 
 ## 🎮 Features
 
