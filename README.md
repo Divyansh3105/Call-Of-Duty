@@ -58,6 +58,10 @@ Each series features individual game pages with banners, character spotlights, t
     <img width="70%" src="Media/ss3.png" alt="Screen Shot 3">
 </div>
 
+## License
+
+This project is open-source and available under the MIT License.
+
 ## Author
 
 **Divyansh Garg**
