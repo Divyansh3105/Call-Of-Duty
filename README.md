@@ -23,6 +23,7 @@ This tribute website showcases every main game in the Call of Duty universe by d
 Each series features individual game pages with banners, character spotlights, trailers, multiplayer highlights, and lore. A dedicated "Legends of Duty" section showcases operatives from all timelines.
 
 🌐 **Live Demo:** [Call of Duty Tribute Website](https://call-of-duty-tribute.netlify.app)
+
 💻 **GitHub Repo:** [Divyansh3105/Call-Of-Duty](https://github.com/Divyansh3105/Call-Of-Duty)
 
 ## 🚀 Features
@@ -108,4 +109,5 @@ This project was built as a **portfolio-worthy web development project** to:
 ---
 
 ✨ *This is a fan-made tribute site and not affiliated with Activision or the official Call of Duty franchise.*
+
 ⭐ If you like this project, consider giving it a **star** on GitHub!
