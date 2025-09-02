@@ -1,6 +1,6 @@
 # 🎮 Call of Duty Tribute Website
 
-![Banner](Media/Banner.png)
+![Banner](Media/banner.png)
 
 ![Call of Duty](https://img.shields.io/badge/Call_of_Duty-000000?style=for-the-badge&logo=activision&logoColor=white)
 ![Modern Warfare](https://img.shields.io/badge/Modern_Warfare-1D3557?style=for-the-badge&logoColor=white)
